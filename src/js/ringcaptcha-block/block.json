@@ -1,0 +1,27 @@
+{
+    "apiVersion": 2,
+    "name": "ringcaptcha/ringcaptcha-block",
+    "version": "1.0.0",
+    "title": "Phone Verification Block",
+    "category": "woocommerce",
+    "description": "A block for phone verification on the checkout page.",
+    "supports": {
+        "html": false,
+        "align": false,
+        "multiple": false,
+        "reusable": false
+    },
+    "parent": ["woocommerce/checkout-shipping-address-block"],
+    "attributes": {
+        "lock": {
+            "type": "object",
+            "default": {
+                "remove": true,
+                "move": true
+            }
+        }
+    },
+    "textdomain": "ringcaptcha-phone-verification-on-checkout-sms-order-notifications",
+    "editorScript": "file:../../../build/ringcaptcha-block.js",
+    "editorStyle": "file:../../../build/style-ringcaptcha-block.css"
+}

@@ -1,0 +1,1 @@
+(()=>{"use strict";(0,window.wp.plugins.registerPlugin)("ringcaptcha-phone-verification-on-checkout-sms-order-notifications",{render:()=>{},scope:"woocommerce-checkout"})})();

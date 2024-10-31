@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>RingCaptcha Documentation</title>
+<link rel="stylesheet" href="css/style.css" media="all" />
+</head>
+
+<body>
+<div class="main-wrap">
+<div class="wrapper">
+  <div class="header">
+  <h1>Installation Guide for RingCaptcha Phone Verification & SMS Order Notifications for WooCommerce</h1>
+    <p><strong>Plugin Name:</strong> RingCaptcha Phone Verification & SMS Order Notifications for WooCommerce</p>
+    <p><strong>Version:</strong> 4.0</p>
+    <p><strong>Author:</strong> <a href="http://www.ringcaptcha.com" title="RingCaptcha" target="_blank">RingCaptcha</a></p>
+    <p><strong>Description:</strong> RingCaptcha Phone Verification & SMS Order Notifications is a plugin for WooCommerce that enables you to verify whether a user phone is real or not. All you need to do is install the plug-in, and register at RingCaptcha to get your App key and Secret key and you’re done!</p>
+  </div>
+  <div class="body-main">
+  <h1>Installation and Setup</h1>
+  <ol>
+    <li>Download <b>"RingCaptcha Phone Verification & SMS Order Notifications for WooCommerce"</b>.</li>
+    <li>Extract the .zip file. It contains 3 folders: <b>documentation</b>, <b>licensing</b>, and <b>ringcaptcha2woocommerce</b>.</li>
+    <img src="assets/rc_folders.png" width="600"/>
+    <li>Locate the folder named <b>"ringcaptcha2woocommerce"</b> and compress it to a .zip file.</li>
+    <img src="assets/rc_compress.png" width="600"/>
+    <li>Go to your <b>WordPress Dashboard</b> » <b>Plugins</b> » <b>Add New</b> » <b>Upload</b> » Select "ringcaptcha2woocommerce.zip", click <b>"Open"</b>.</li>
+    <img src="assets/rc_upload.png" width="900"/>
+    <li>Next, Click <b>"Install Now"</b></li>
+    <img src="assets/rc_install.png" width="900"/>
+    <li>Click <b>"Activate Plugin"</b>.</li>
+    <img src="assets/rc_activate.png" width="900"/>
+    <li>After Activation, Go to <b>WooCommerce Dashboard</b> » <b>RC2wooCommerce Dashboard</b>.</li>
+    <img src="assets/rc_settings.png" width="900"/>
+    <li>Go to <a href="https://my.ringcaptcha.com">RingCaptcha</a> and register to get your App Key and Secret Key.</li>
+    <img src="assets/rc_landing.png" width="900"/>
+    <img src="assets/rc_signup.png" width="900"/>
+    <li>After Registering, login to your account and create a new app. Under <b>"My Apps"</b> tab, click <b>"Create New".</b></li>
+    <img src="assets/rc_apps.png" width="900"/>
+    <li>A window will pop up. Choose <b>"Web"</b> as App type.</li>
+    <img src="assets/rc_web.png" width="900"/>
+    <li>Input your website’s domain name. <b>"Localhost"</b> is accepted for development purposes. Click <b>"Create App"</b>.</li>
+    <img src="assets/rc_domain.png" width="900"/>
+    <li>You can now view your newly created app from the dashboard. Now you can see your <b>App Key</b> and <b>Secret Key</b>.<br/> (Note: If you see **** in Secret Key, just click it and it will reveal your key).</li>
+    <img src="assets/rc_app.png" width="900"/>
+    <li>Copy and paste the App Key and Secret Key into your WooCommerce RingCaptcha Settings. Also check the checkbox to enable RingCaptcha2wooCommerce. Click <b>"Save Changes"</b>.</li>
+    <img src="assets/rc_paste.png" width="900"/>
+    <li>Congratulations! Now you can use the different functionalities of the WooCommerce RingCaptcha plugin!</li>
+  </ol>
+
+  <h1>Third-Party Service Disclosure</h1>
+  <p>This plugin utilizes <strong>RingCaptcha</strong>, a third-party service that provides phone verification and SMS notifications. By using this plugin, you acknowledge that data related to phone verification and SMS notifications will be sent to RingCaptcha's servers.</p>
+  
+  <h2>When Data is Sent</h2>
+  <p>Data is sent to RingCaptcha under the following circumstances:</p>
+  <ul>
+    <li>When a user enters a phone number for verification during the checkout process.</li>
+    <li>When SMS notifications are triggered for order updates.</li>
+  </ul>
+  
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://ringcaptcha.com" target="_blank">RingCaptcha Service</a></li>
+    <li><a href="https://ringcaptcha.com/terms-of-use" target="_blank">RingCaptcha Terms of Service</a></li>
+    <li><a href="https://ringcaptcha.com/privacy-policy" target="_blank">RingCaptcha Privacy Policy</a></li>
+  </ul>
+
+  <br/><br/></br/>
+  <h1>How to activate SMS Notifications</h1>
+  <ol>
+    <li>You can send us an email at "<a href="mailto:support@ringcaptcha.com">support@ringcaptcha.com</a>" or contact us on our Intercom live support at <a href="https://ringcaptcha.com" target="_blank">https://ringcaptcha.com</a></li> if you want to turn on SMS Notifications.
+
+    <li>After we activate SMS functionalities with your RingCaptcha account, check <b>"Enable SMS Notifications"</b>.</li>
+    <img src="assets/rc_notif.png" width="350"/>
+
+    <li>Check the <b>"Enable admin notifications"</b> if you want to receive SMS notifications whenever a customer places an order. <br/>You could also edit the content of the SMS. Input your own phone number for SMS notifications.</li>
+    <img src="assets/rc_admin.png" width="600"/>
+
+    <li>You can set up your page to automatically send SMS notifications to customers on certain states regarding their orders.</li>
+    <img src="assets/rc_customernotif.png" width="600"/> 
+
+    <li>Bonus: You can send direct SMS to your customers if you want to reach them out!</li>
+    <img src="assets/rc_sendsms.png" width="600"/>
+  </ol>
+  
+  <h4>Note:</h4>
+  <p>If you have any comments, suggestions, bugs discovered, or questions regarding the setup, you can visit <a href="https://ringcaptcha.com/">https://ringcaptcha.com</a> and message us through our Intercom, or send us an email at <a href="mailto:support@ringcaptcha.com">support@ringcaptcha.com</a></p>
+  </div>
+  <div class="footer">&copy; RingCaptcha 2021</div>
+  </div>
+</div>
+</body>
+</html>
